@@ -1,0 +1,173 @@
+/* .ant-table {
+  overflow-x: scroll;
+} */
+
+body {
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(30, 28, 28);
+}
+
+/* .ant-table::-webkit-scrollbar-track {
+  margin: 10px;
+} */
+
+.table {
+  margin: 2rem 0;
+  background: rgba(26, 26, 34, 0.303);
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+table {
+  width: 100% !important;
+}
+
+th {
+  font-weight: 600;
+  color: var(--color-secondary-purple);
+  border-bottom: 2px solid rgba(91, 88, 88, 0.118);
+  padding: 0.5rem 0 1rem 0;
+}
+
+th:nth-child(2) {
+  text-align: left;
+  padding: 0.5rem 0 1rem 3rem;
+}
+
+th:nth-child(3) {
+  text-align: left;
+  padding: 0.5rem 0 1rem 3rem;
+}
+
+td {
+  text-align: center;
+  padding: 1rem;
+  font-size: 14px;
+}
+
+/*----------------------- coin */
+
+.coin {
+  display: flex;
+  align-items: center;
+  width: 18rem;
+}
+
+.coin_img {
+  display: flex;
+}
+
+.coin_img > img {
+  width: auto;
+  height: 1rem;
+  margin: 0 0.5rem;
+}
+
+.symbol {
+  font-size: 9px;
+  background: blue;
+  box-shadow: var(--box-shadow);
+  padding: 1px 3px;
+  margin-left: auto;
+  border-radius: 2px;
+  width: 40px;
+}
+
+/*------------------------- price */
+
+.price {
+  display: flex;
+}
+
+.price > p {
+  padding: 0 0.5rem;
+}
+
+.market_cap {
+  display: flex;
+  justify-content: center;
+}
+
+/* -------------------------price change*/
+.price-change {
+  display: flex;
+  justify-content: center;
+}
+
+.price-change p {
+  padding: 0 2px;
+}
+
+/* -----------------------pagination */
+
+.ant-pagination {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.ant-pagination-item {
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+.ant-pagination-item-link {
+  background: transparent;
+  color: var(--color-light);
+  border: navajowhite;
+  cursor: pointer;
+}
+
+.ant-pagination-options {
+  display: none;
+}
+
+/* ------------------- media query tablet ---------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .ant-table {
+    overflow-x: scroll;
+  }
+
+  .ant-table::-webkit-scrollbar {
+    width: 14px;
+    height: 5px;
+  }
+
+  .ant-table::-webkit-scrollbar-thumb {
+    background-color: rgb(30, 28, 28);
+  }
+  .ant-table::-webkit-scrollbar-track {
+    margin: 10px;
+  }
+}
+
+/* ------------------- media query smartphone ---------------------- */
+
+@media screen and (max-width: 767px) {
+  .ant-table {
+    overflow-x: scroll;
+  }
+
+  .ant-table::-webkit-scrollbar {
+    width: 14px;
+    height: 5px;
+  }
+
+  .ant-table::-webkit-scrollbar-thumb {
+    background-color: rgb(30, 28, 28);
+  }
+
+  .ant-table::-webkit-scrollbar-track {
+    margin: 10px;
+  }
+}

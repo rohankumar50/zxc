@@ -1,0 +1,81 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ------------------------------------------- */
+.rank {
+  display: flex;
+  background: var(--color-light);
+  width: fit-content;
+  color: var(--color-primary);
+  padding: 5px 10px;
+  box-shadow: 0 0 10px var(--color-light);
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.rank > p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* ---------------------------------------- */
+.coinName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.coinName_image {
+  width: 10rem;
+  height: 10rem;
+}
+
+.coinName_image > img {
+  height: 100%;
+}
+
+.coinName_name {
+  font-size: 3rem;
+}
+
+.tag_text {
+  font-size: 12px;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+}
+
+/* --------------------------------------------- */
+
+.details_price {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: var(--box-shadow);
+  padding: 2rem;
+}
+
+/* --------------------------------------------- */
+
+.mkt {
+  box-shadow: var(--box-shadow);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ---------------------------------------------- */
+
+.description {
+  box-shadow: var(--box-shadow);
+  padding: 2rem;
+}
+
+.description > p {
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
