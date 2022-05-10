@@ -1,6 +1,6 @@
 {
   "name": "crypto-tracker",
-  "homepage": "https://rohankumar50.github.io/cryptotracker",
+  "homepage": "https://rohankumar50.github.io/cryptohunt",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
